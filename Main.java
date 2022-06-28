@@ -12,6 +12,12 @@ public class Main {
             case"guitar":
                 playable = new Guitar();
             break;
+            case "volleyball":
+                playable = new VolleyBall();
+            break;
+            case "flute":
+                playable = new Flute(); 
+            break;       
         }
         play(playable);
     }
