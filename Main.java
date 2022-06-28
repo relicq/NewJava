@@ -27,6 +27,10 @@ public class Main {
             FootBall football= (FootBall) playable;
             football.kick();
         }
+        else if( playable instanceof Flute){
+            Flute flute = (Flute) playable;
+            flute.tune();
+        }
     }
 
 
