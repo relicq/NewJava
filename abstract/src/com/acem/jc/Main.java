@@ -1,3 +1,10 @@
+package com.acem.jc;
+import com.acem.jc.FootBall;
+import com.acem.jc.BasketBall;
+import com.acem.jc.VolleyBall;
+import com.acem.jc.Guitar;
+import com.acem.jc.Flute;
+
 public class Main {
     public static void main(String args[]){
         String input = args[0];
@@ -23,14 +30,7 @@ public class Main {
     }
     public static void play( Playable playable){
         playable.play();
-        if( playable instanceof FootBall){
-            FootBall football= (FootBall) playable;
-            football.kick();
-        }
-        else if( playable instanceof Flute){
-            Flute flute = (Flute) playable;
-            flute.tune();
-        }
+        
     }
 
 
